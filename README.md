@@ -1,6 +1,8 @@
 # Date Field Router - SMT
 
-## English
+## English 
+
+[[Leer en español]](#Español)
 
 This project implements a Single Message Transform (SMT) for Kafka Connect that routes events based on the value of a 
 date field present in each record's value.
@@ -36,6 +38,8 @@ Configure your connector to use the SMT.
 ```
 
 ## Español
+
+[[Read in English]](#English)
 
 Este proyecto implementa un Single Message Transform (SMT) para ser utilizado en un conector de Kafka Connect. El 
 objetivo de este SMT es modificar el tópico destino según el valor de un campo de tipo `date` del `value` de 
